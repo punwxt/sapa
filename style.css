@@ -21,7 +21,13 @@ body {
     background-position: center;
 }
 
-.container {
+.container2 {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.container3 {
     max-width: 1100px;
     margin: 0 auto;
     padding: 0 20px;
@@ -42,54 +48,60 @@ body {
 /* Policy Section */
 
 .policies-img {
-    margin-top: 100px;
     display: block;
-    width: 100%; /* ปรับขนาดตามต้องการ */
     height: auto;
+    width: 100%;
+}
+
+.container1 {
+    max-width: 1200px;
+    margin: auto;
+    position: relative;
+    margin-top: 50PX;
 }
 
 .hotspot {
     position: absolute;
-    border: 1px solid red;  /*ปลดคอมเมนต์บรรทัดนี้เพื่อดูตำแหน่งตอนจัดวาง */
+    /* border: 1px solid red; ปลดคอมเมนต์บรรทัดนี้เพื่อดูตำแหน่งตอนจัดวาง */
     cursor: pointer;
 }
 
 /* กำหนดตำแหน่งทีละกรอบ (ตัวอย่างค่าสมมติ) */
 .frameone {
-    top: 90%; 
-    left: 11%; 
-    width: 13.5%; 
-    height: 14%;
+    top: 53%; 
+    left: 9%; 
+    width: 14%; 
+    height: 25%;
 }
 
 .frametwo {
-    top: 70%; 
-    left: 16%; 
-    width: 15.3%; 
-    height: 17.5%;
+    top: 16.5%; 
+    left: 14.5%; 
+    width: 16%; 
+    height: 31%;
     border-radius: 50%; /* ใช้ถ้าเป็นกรอบวงรี */
 }
 
 .framethree {
-    top: 66.5%; 
-    left: 37%; 
-    width: 22.5%; 
-    height: 11.5%;
+    top: 10%; 
+    left: 36%; 
+    width: 23.5%; 
+    height: 20%;
 }
 
 .framefour {
-    top: 69%; 
-    left: 67%; 
-    width: 15.3%; 
-    height: 16.5%;
+    top: 15%; 
+    left: 68%; 
+    width: 16%; 
+    height: 29%;
     border-radius: 51%; /* ใช้ถ้าเป็นกรอบวงรี */
 }
 
 .framefive {
-    top: 87.5%; 
-    left: 76%; 
-    width: 15.3%; 
-    height: 16.5%;
+    top: 48%; 
+    left: 77.5%; 
+    width: 16%; 
+    height: 31%;
     border-radius: 51%; /* ใช้ถ้าเป็นกรอบวงรี */
 }
 

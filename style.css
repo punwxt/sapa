@@ -85,8 +85,8 @@ body {
 }
 
 .framethree {
-    top: 10%; 
-    left: 36%; 
+    top: 9%; 
+    left: 37.5%; 
     width: 23.5%; 
     height: 20%;
 }
@@ -108,10 +108,11 @@ body {
 }
 
 .poli {
-    top: 115%; 
-    left: 70%; 
-    width: 23.5%; 
-    height: 20%;
+    top: 77%;
+    left: 70.5%; 
+    width: 20%; 
+    height: 10%;
+    border-radius: 30%;
 }
 
 /* Member Section */
